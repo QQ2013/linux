@@ -1,0 +1,2 @@
+踢掉当前登录用户
+fuser -k /dev/tty1

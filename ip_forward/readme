@@ -1,0 +1,5 @@
+1.方法一：
+echo 1>/proc/sys/net/ipv4/ip_forward 临时改变重启后消失
+2.方法二：
+修改 /etc/sysctl.conf ip_forward值为1 重启后生效
+sysctl -p立即生效

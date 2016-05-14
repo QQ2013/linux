@@ -1,0 +1,11 @@
+1.挂载文件夹
+mount --bind dir1 dir2
+2.挂载ntfs参见文档
+
+3.挂载iso镜像
+mount -o loop -t iso9660 a.iso dir
+-t:文件系统选择
+-o:option
+  loop 把文件当做分期挂载
+  ro只读挂载
+  rw读写挂载
