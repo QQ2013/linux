@@ -1,0 +1,1 @@
+scp root@xx.xx.xx.xx:s_file root@xx.xx.xx.xx:d_file

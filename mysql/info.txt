@@ -1,0 +1,2 @@
+mysql -h 10.68.111.254 -u root -p recycle -e "show tables"
+mysql -h 10.68.111.254 -u root -p recycle -e "show columns from t_user"

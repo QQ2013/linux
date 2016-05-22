@@ -86,8 +86,18 @@ step 2:synchro with remote
    error: you need to resolve your current index first res:git reset --merge
    error: fast***                                         :git push -f
 6.1 change commits
-    git rebase -i hards
-	http://blog.chinaunix.net/uid-27714502-id-3436706.html
+    git rebase -i hards ex:git rebase -i HEAD~1
+    make your change
+    rm file:git rm file
+    add file:git add file
+    changefile git add file
+    // git comit --amend this is not all need --continue will include this step
+    git rebase --contiune
+    git rebase --abort
+    git rebase --skip
+    
+    git push -f 
+    http://blog.chinaunix.net/uid-27714502-id-3436706.html
 
 ###################################################################################
 7.git trees
