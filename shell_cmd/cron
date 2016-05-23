@@ -1,0 +1,12 @@
+1.定时执行命令,使用脚本配置,灵活性更高
+2./etc/cron.d目录下设置命令,其中run-parts的意思是执行文件夹下的脚本
+
+
+每小时执行一次:第一项是分钟没01分时执行一次
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root
+HOME=/
+01 * * * * root run-parts /etc/cron.hourly
+
+
